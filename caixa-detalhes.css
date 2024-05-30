@@ -1,0 +1,47 @@
+body{
+    background-color: #835b8b;
+}
+
+section{
+    margin-left: 430px;
+    margin-right: 550px;
+    background-color: rgb(229, 199, 160);
+    height: 540px;
+    width: 540px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #b4ab9f;
+}
+
+div{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid #333;
+    transition: all 0.4s ease;
+    position: relative;
+    border-radius: 2px;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+input{
+    width: 300px;
+    position: relative;
+    border-radius: 3px;
+    border: 2px solid #000000;
+    font: italic small-caps bold 16px/2 cursive;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+.ata{
+    margin-left: 25px;
+    font: small-caps bold 15px/1 sans-serif;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
