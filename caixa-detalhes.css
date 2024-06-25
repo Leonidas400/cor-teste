@@ -35,13 +35,53 @@ input{
     margin-top: 20px;
     margin-left: 110px;
 }
+li{
+    margin-top: 30px;
+    margin-left: 300px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    border-radius: 30%; /*arredondando*/
+    border: 2px solid rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+a{
+    font-size: 20px;
+    margin-left: 35px;
+}
 
 .ata{
     margin-left: 25px;
     font: small-caps bold 15px/1 sans-serif;
 }
 footer{
+    margin-top: 20px;
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+[data-color="first"]{
+    background-color: #667BC6 ;/*-----------azul---------*/
+}
+
+[data-color="second"]{
+    background-color: #81A263;/*-----------vermelho---------*/
+}
+
+[data-color="third"]{
+    background-color: #FF7F3E;/*-----------verde---------*/
+}
+
+[data-color="fourth"]{
+    background-color: #C80036;/*-----------marelo---------*/
+}
+
+[data-color="firth"]{
+    background-color: #1A2130;
+}
+
+[data-color="sixth"]{
+    background-color: #C08B5C;
 }
