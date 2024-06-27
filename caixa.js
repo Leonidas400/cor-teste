@@ -1,5 +1,6 @@
 let box = document.querySelector("div"), input = document.querySelector("input");
 let $cor= document.querySelectorAll(".mudarCor")
+let $borda = document.querySelectorAll(".borda")
 
 $cor.forEach(link => {
     link.addEventListener("click", (event) => {
@@ -8,6 +9,14 @@ $cor.forEach(link => {
         box.style.backgroundColor = newColor;
     });
 });
+
+$borda.forEach(linkedin => {
+    linkedin.addEventListener("click", (event) =>{
+        event.preventDefault()
+        let newBorda = linkedin.textContent;
+        box.style.borderRadius = newBorda
+    })
+})
 
 
 

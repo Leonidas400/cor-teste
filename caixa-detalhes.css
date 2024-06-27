@@ -55,6 +55,11 @@ a{
     margin-left: 25px;
     font: small-caps bold 15px/1 sans-serif;
 }
+
+.eita{
+    margin-top: 30px;
+    margin-left: 300px;
+}
 footer{
     margin-top: 20px;
     color: white;
@@ -84,4 +89,22 @@ footer{
 
 [data-color="sixth"]{
     background-color: #C08B5C;
+}
+
+[data-color="seventh"]{
+    background-color: #E5D1FA;
+}
+
+[data-color="eighth"]{
+    background-color: #C68484;
+}
+
+[data-color="ninth"]{
+    background-color: #B3A492;
+}
+
+
+
+[data-color="card"]{
+    background-color: #088395;
 }
