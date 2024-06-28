@@ -1,28 +1,21 @@
-let box = document.querySelector("div"), input = document.querySelector("input");
-let $cor= document.querySelectorAll(".mudarCor")
-let $borda = document.querySelectorAll(".borda")
-
-$cor.forEach(link => {
-    link.addEventListener("click", (event) => {
-        event.preventDefault();
-        let newColor = link.textContent; // Pegue o texto dentro da tag a
-        box.style.backgroundColor = newColor;
-    });
-});
-
-$borda.forEach(linkedin => {
-    linkedin.addEventListener("click", (event) =>{
-        event.preventDefault()
-        let newBorda = linkedin.textContent;
-        box.style.borderRadius = newBorda
-    })
-})
-
-
+let box = document.querySelector(".caixa-cosmog"), input = document.querySelector(".cosmog");
+let $estilo= document.querySelectorAll(".estilo")
 
 input.addEventListener("input", () => {
     box.style.borderRadius = input.value;
     box.style.background = input.value;
 })
 
+function mudaCorEBorda(estilizar){
+    estilizar.forEach(link => {
+        link.addEventListener("click", (event) => {
+            event.preventDefault();
+            let newEstilo = link.textContent; // Pega o texto dentra da tag a
+            box.style.backgroundColor = newEstilo;
+            box.style.borderRadius = newEstilo;
+        });
+    });
+}
+
+mudaCorEBorda($estilo);
 
