@@ -3,7 +3,7 @@ let $estilo= document.querySelectorAll(".estilo")
 
 input.addEventListener("input", () => {
     box.style.borderRadius = input.value;
-    box.style.background = input.value;
+    box.style.background = input.value && white;
 })
 
 function mudaCorEBorda(estilizar){
