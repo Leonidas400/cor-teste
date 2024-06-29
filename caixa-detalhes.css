@@ -18,7 +18,7 @@ div{
     width: 400px;
     background-color: white;
     border: 2px solid #333;
-    transition: all 0.4s ease;
+    transition: all 0.6s ease;
     position: relative;
     border-radius: 2px;
     display: inline-block;

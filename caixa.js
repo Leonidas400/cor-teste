@@ -2,8 +2,9 @@ let box = document.querySelector(".caixa-cosmog"), input = document.querySelecto
 let $estilo= document.querySelectorAll(".estilo")
 
 input.addEventListener("input", () => {
+    
     box.style.borderRadius = input.value;
-    box.style.background = input.value && white;
+    box.style.background = input.value;
 })
 
 function mudaCorEBorda(estilizar){
