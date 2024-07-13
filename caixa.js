@@ -19,4 +19,3 @@ function mudaCorEBorda(estilizar){
 }
 
 mudaCorEBorda($estilo);
-
