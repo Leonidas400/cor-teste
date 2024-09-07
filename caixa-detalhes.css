@@ -2,19 +2,22 @@ body{
     background-color: #835b8b;
 }
 
-section{
-    margin-left: 430px;
-    margin-right: 550px;
+/*------------------------------------------------------section-com-a-div-modificável-e-o-input-de-escrita---------------------------------------------------*/
+
+.secaoDeEscrita{
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgb(229, 199, 160);
-    height: 540px;
+    height: 800px;
     width: 540px;
     margin-top: 20px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #81796f;
 }
 
+/*----------------------------------------------------------div-que-sofre-alterações---------------------------------------------------*/
 
-div{
+.caixa-cosmog{
     height: 400px;
     width: 400px;
     background-color: white;
@@ -27,18 +30,50 @@ div{
     margin-top: 30px;
 }
 
+/*----------------------------------------------------------input-com-escrita-para-alterações---------------------------------------------------*/
+
 input{
     width: 300px;
     position: relative;
     border-radius: 3px;
     border: 2px solid #000000;
     font: italic small-caps bold 16px/2 cursive;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: 110px;
 }
+
+/*----------------------------------------------------------input-com-palheta-para-alterações---------------------------------------------------*/
+
+.abobora{
+    width: 305px;
+    height: 45px;
+    position: relative;
+    border-radius: 3px;
+    border-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0);
+    font: italic small-caps bold 16px/2 cursive;
+    margin-top: 3px;
+    margin-left: 105px;
+}
+
+/*----------------------------------------------------section-com-as-alterações-pré-definidas---------------------------------------------------*/
+
+.opcoes{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0);
+    height: 540px;
+    width: 540px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: block;
+}
+
+/*---------------------------------------------------------os-elementos-li-com-cores/numeros-dentro---------------------------------------------------*/
+
 li{
     margin-top: 30px;
-    margin-left: 300px;
+    margin-right: 20px;
     display: inline-block;
     box-sizing: border-box;
     width: 32px;
@@ -47,20 +82,46 @@ li{
     border: 2px solid rgba(0,0,0,0.5);
     cursor: pointer;
 }
+
+/*--------------------------------------------------------------classe-das-li-com-numeros-dentro---------------------------------------------------*/
+
+.praque{
+    margin-left: 60px;
+}
+
+/*----------------------------------------------------------------classe-das-li-com-cores---------------------------------------------------*/
+
+.bola{
+    margin-left: 60px;
+    
+}
+
+/*---------------------------------------------------------elemento-a-com-as-cores/numeros-dentros---------------------------------------------------*/
+
 a{
     font-size: 20px;
     margin-left: 35px;
 }
 
+
+/*------------------------------------------------------------------paragrafos-com-classe-classeDoDesespero---------------------------------------------------*/
+
+.classeDoDesespero{
+        margin-left: 80px;
+        margin-top: 20px;
+        font: small-caps bold 15px/1 sans-serif;
+}
+
+/*------------------------------------------------------------------paragrafos-com-classe-ata---------------------------------------------------*/
+
 .ata{
     margin-left: 25px;
+    margin-top: 30px;
     font: small-caps bold 15px/1 sans-serif;
 }
 
-.eita{
-    margin-top: 30px;
-    margin-left: 300px;
-}
+/*----------------------------------------------------------------footer-escrito-anonimouz---------------------------------------------------*/
+
 footer{
     margin-top: 20px;
     color: white;
@@ -68,20 +129,22 @@ footer{
     font-style: italic;
 }
 
+/*--------------------------------------------------------------------data-color-das-cores-pré-definidas---------------------------------------------------*/
+
 [data-color="first"]{
-    background-color: #667BC6 ;/*-----------azul---------*/
+    background-color: #667BC6 ;
 }
 
 [data-color="second"]{
-    background-color: #81A263;/*-----------vermelho---------*/
+    background-color: #81A263;
 }
 
 [data-color="third"]{
-    background-color: #FF7F3E;/*-----------verde---------*/
+    background-color: #FF7F3E;
 }
 
 [data-color="fourth"]{
-    background-color: #C80036;/*-----------marelo---------*/
+    background-color: #C80036;
 }
 
 [data-color="firth"]{
@@ -104,7 +167,19 @@ footer{
     background-color: #B3A492;
 }
 
+[data-color="tenth"]{
+    background-color: #AF47D2;
+}
 
+[data-color="nineleventhth"]{
+    background-color: #C738BD;
+}
+
+[data-color="twelth"]{
+    background-color: #A1DD70;
+}
+
+/*--------------------------------------------------------------------data-color-das-bordas-pré-definidas---------------------------------------------------*/
 
 [data-color="card"]{
     background-color: #088395;
